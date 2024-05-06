@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+header{
+    background-image: url(../IMG/UC-121-La-Fuente-5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow:  20px 300px 200px 100px rgba(0, 0, 0, 0.8) inset;;
+    height: 100vh;
+    width: 100%;
+}
+.box1{
+    padding-top: 2%;
+    background: linear-gradient(rgba(248, 29, 230, 0.15), transparent);
+    text-align: center;
+}
+.box1 h1{
+    font-size: 2rem;
+}
+.main-content-index{
+    text-align: center;
+    margin-top: 10%;
+}
+.main-content-index h2{
+    font-size: 4rem;
+}
+.main-content-index p{
+    font-size: 2rem;
+}
+
+#Cmenu{
+    display: flex;
+  justify-content: space-around;
+}
+
+#botom{
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    margin-top: 1rem;
+    border-bottom: 1px solid white;
+   
+}
+#botom a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+#botom a:hover{
+    color: #16eb16;
+}
+#botom:hover{
+    transform: scale(1.2);
+}
+picture{
+    max-width: 30%;
+    margin: 1rem;
+}
+ img{
+    width: 100%;
+    border: 4px solid rgba(239, 15, 247, 0.185);
+    border-radius: 1.2rem;
+}
+.Espacio1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(9, 255, 0, 0.185), rgba(0, 0, 0, 0.13));
+}
+.Espacio1-text{
+    padding: 1rem;
+}
+.Espacio1-text h2{
+    font-size: 2.5rem;
+    border-bottom: 2px solid black;
+    margin-bottom: 3%;
+    padding-bottom: 1%;
+}
+.Espacio1-text p{
+    font-size: 1.1rem;
+}
