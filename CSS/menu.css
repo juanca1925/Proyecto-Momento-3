@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    height: 20vh;
+    width: 100%;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #066431dc, #5f0838);
+    background-repeat: no-repeat;
+    margin: 0;
+}
+h1{
+    color: lightgray;
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.menu-title{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 182, 210);
+
+}
+.menu-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.menu-flex div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    background-color: rgba(173, 216, 230, 0.242);
+    border-radius: 50%  ;
+    padding: 4rem;
+    max-width: 400px;
+    max-height: 400px;
+    min-width: 300px;
+    min-height: 300px;
+    color: lightgrey;
+
+}
+div ul li{
+    list-style: none;
+}
+
+picture img{
+    max-height: 250px;
+    max-width: 250px;
+
+}
+.menu-flex div:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 20px 12px purple;
+}
+.redes__fotos img{
+    display: flex;
+    flex-direction: row;
+    max-width: 4rem;
+}
+footer {
+  position: fixed;
+  bottom: 190px;
+  left: 0px;
+  width: 90px; /* ancho del footer */
+  background-color: transparent; /* color de fondo del footer */
+  padding: 10px;
+}
+.box1{
+    padding-top: 2%;
+    background: linear-gradient(rgba(248, 29, 230, 0.15), transparent);
+    text-align: center;
+}
+.box1 h1{
+    font-size: 2rem;
+}
+.main-content-index{
+    text-align: center;
+    margin-top: 10%;
+}
+.main-content-index h2{
+    font-size: 4rem;
+}
+.main-content-index p{
+    font-size: 2rem;
+}
+
+#Cmenu{
+    display: flex;
+  justify-content: space-around;
+}
+
+#botom{
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    margin-top: 1rem;
+    border-bottom: 1px solid white;
+   
+}
+#botom a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+#botom a:hover{
+    color: #16eb16;
+}
+#botom:hover{
+    transform: scale(1.2);
+}
+
+.maps{
+ display: flex;
+ flex-direction: row-reverse;
+ justify-content: center;
+}
+.maps__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    left: 20
+    %;
+}
+.maps__info h2{
+    font-size: 2rem;
+    }
+.maps__info p{
+    font-size: 1.5rem;
+    border-bottom: #fff solid;
+}
